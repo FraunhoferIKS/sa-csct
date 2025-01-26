@@ -1,0 +1,11 @@
+If context is e1, system is safe when  and  are provided
+If context is e2, system is safe when t1 and u1, u2 are provided
+If context is e2, e3, system is safe when t1, t4 and u1 are provided
+If context is , system is safe when t2, t3 and u2 are provided
+If context is e3, system is safe when t2, t3, t4 and  are provided
+
+C_{M_1} &= \langle\{e1\}, \{\}\rangle, \\
+C_{M_2} &= \langle\{e2\}, \{t1, u1, u2\}\rangle, \\
+C_{M_3} &= \langle\{e2, e3\}, \{t1, t4, u1\}\rangle, \\
+C_{M_4} &= \langle\{\}, \{t2, t3, u2\}\rangle, \\
+C_{M_5} &= \langle\{e3\}, \{t2, t3, t4\}\rangle.

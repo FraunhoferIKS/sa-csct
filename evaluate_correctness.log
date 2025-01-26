@@ -1,0 +1,15 @@
+Location(1): {0.0, 1.0, 0.0}
+Activity(0.4): {0.3999999999999999, 0.6000000000000001, 0.0}
+Distance(71): {0.0, 0.16, 0.8400000000000001}
+Context(None): {nan, nan, nan}
+No humans present: 0.6267669799900689
+LoadWeight(600): {0.39999999999999997, 0.6, 0.0}
+SurfaceGradient(0.02): {0.6, 0.4, 0.0}
+AMR speed: 5.342927645032689
+In warehouse: Activity in [0.0, 0.542713567839196], distance in [45.7286432160804, 100.0]
+In factory:   Activity in [0.0, 0.3316582914572864], distance in [46.73366834170854, 100.0]
+
+Enough space: DepartLane in [0.8241206030150754, 1.0], LateralSpace in [4.572864321608041, 10.0], MachineDistance in [4.572864321608041, 10.0]
+Sufficient QoS: Latency in [0.0, 165.82914572864323], Throughput in [668.3417085427136, 1000.0]
+40000 are below the true value
+0 are above the true value

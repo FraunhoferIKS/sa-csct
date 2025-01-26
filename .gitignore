@@ -1,0 +1,10 @@
+# VSCode
+.vscode
+
+# Python
+venv
+**/__pycache__
+*.pyc
+
+# Output
+*.pkl

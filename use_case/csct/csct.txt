@@ -1,0 +1,20 @@
+main:
+No collisions with humans
+ + No humans are present
+  - !c(no_humans) No humans are present
+  - !n(none) No requirements
+ + AMR avoids collisions with humans
+  - AMR avoids humans in the path
+   + AMR drives around humans
+    - !c(enough_space) Enough space for evasive maneuvers
+    - !t(high_freq_planner) Preemptive trajectory planner
+    - !u(amr_detects) AMR can detect location of humans
+   + AMR stops in front of humans
+    - !t(distance_sensor) Distance sensor with detection range of at least 7 meters
+    - !t(braking_speed) AMR drives slower than $v_{max}$
+     - !p(amr_velocity) AMR weight, ground slope
+  - AMR avoids occluded humans at blind corners
+   + !u(catious_amr) AMR enters blind corners cautiously
+   + AMR drives using infrastructure sensors
+    - !t(infrastructure_sensor) Infrastructure sensors provide localization of humans
+    - !c(sufficient_qos) Sufficient QoS for communication
