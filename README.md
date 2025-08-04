@@ -1,5 +1,5 @@
 # Contextual Safety Concept Trees for Self-Adaptation
-This repository contains code for creating and solving contextual safety concept trees with fuzzy constraints. The code has been used for the paper **Modeling Safe Adaptation Spaces for Self-Adaptive Systems Using Contextual Safety Concept Trees** presented at **SEAMS 2025**.
+This repository contains code for creating and solving contextual safety concept trees with fuzzy constraints. The code has been used for the paper [Modeling Safe Adaptation Spaces for Self-Adaptive Systems Using Contextual Safety Concept Trees](https://ieeexplore.ieee.org/abstract/document/11025947) presented at **SEAMS 2025**.
 
 ## Repository structure
 ``` python
@@ -64,9 +64,11 @@ If you find our work useful in your research, please consider citing:
 
 ```
 @inproceedings{kreutz.etal_2025,
-    title={Modeling Safe Adaptation Spaces for Self-Adaptive Systems Using Contextual Safety Concept Trees},
     author={Kreutz, Andreas and Weiss, Gereon and Trapp, Mario},
-    booktitle={2025 IEEE/ACM 20th Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)},
-    year={2025}
+    booktitle={2025 IEEE/ACM 20th Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)}, 
+    title={Modeling Safe Adaptation Spaces for Self-Adaptive Systems Using Contextual Safety Concept Trees}, 
+    year={2025},
+    pages={96-102},
+    doi={10.1109/SEAMS66627.2025.00018}
 }
 ```
